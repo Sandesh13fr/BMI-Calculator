@@ -1,6 +1,6 @@
 # BMI Calculator
 
-[Link the preview...](https://sandesh13fr.github.io/BMI-Calculator/)
+[Link to the preview...](https://sandesh13fr.github.io/BMI-Calculator/)
 
 ## Project Description
 The BMI Calculator is a simple and intuitive application that allows users to calculate their Body Mass Index (BMI) based on their height and weight. This tool helps users to assess whether they are underweight, normal weight, overweight, or obese according to the BMI scale.

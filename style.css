@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+html {
+    font-size: medium;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.7rem;
+    background-color: #212121;
+    color: aliceblue;
+}
+
+fieldset {
+    padding: 2rem 4rem;
+}
+
+button {
+    background-color: antiquewhite;
+    padding: 0.7rem 2.5rem;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: azure;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+
+hr {
+    margin: 1rem;
+}
+
+/* Tablet (768px and below) */
+@media screen and (max-width: 768px) {
+    .main-container {
+        font-size: 2.2rem;
+        padding: 1rem;
+    }
+
+    fieldset {
+        padding: 1.8rem 2.5rem;
+    }
+}
+
+/* Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+    .main-container {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+
+    fieldset {
+        padding: 1.5rem;
+        width: 92%;
+        max-width: 380px;
+    }
+
+    legend h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 0.7rem 1.5rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.4rem;
+        margin: 0.4rem 0;
+    }
+
+    label {
+        display: block;
+        font-size: 1.6rem;
+        margin-top: 0.8rem;
+    }
+
+    #weight-guide {
+        font-size: 1.3rem;
+    }
+
+    #weight-guide h3 {
+        font-size: 1.7rem;
+        margin: 0.8rem 0;
+    }
+
+    #weight-guide p {
+        margin: 0.5rem 0;
+    }
+
+    hr {
+        margin: 1rem 0;
+    }
+}
+
+/* Small phones (380px and below) */
+@media screen and (max-width: 380px) {
+    .main-container {
+        font-size: 1.6rem;
+    }
+
+    fieldset {
+        padding: 1.2rem;
+        width: 95%;
+    }
+
+    legend h1 {
+        font-size: 2rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    input[type="number"] {
+        font-size: 1.3rem;
+    }
+
+    button {
+        font-size: 1.4rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    #weight-guide {
+        font-size: 1.2rem;
+    }
+
+    #weight-guide h3 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Height adjustments */
+@media screen and (max-height: 600px) {
+    .main-container {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    fieldset {
+        margin: 1rem 0;
+    }
+}
